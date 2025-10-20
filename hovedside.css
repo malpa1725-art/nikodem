@@ -1,0 +1,60 @@
+/*css minimal reset*/
+
+/* Inherit box-sizing to enable easier component styling */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin */
+* {
+    margin: 0;
+}
+
+/* Allow percentage-based heights in the application */
+html,
+body {
+    height: 100%;
+}
+
+/* Improve media defaults */
+img,
+picture,
+svg,
+video,
+canvas {
+    max-width: 100%;
+    height: auto;
+    /* Ensure aspect ratio is maintained */
+    display: block;
+    /* Remove extra space below images */
+}
+
+/* Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/*END css minimal reset*/
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(62, 60, 60);
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    font-size: 30px;
+}
+
+nav a {
+    color: rgb(237, 161, 161);
+    font-weight: 600;
+}
