@@ -43,6 +43,7 @@ h6 {
 }
 
 /*END css minimal reset*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 nav ul{
     display: flex;
     justify-content: space-evenly;
@@ -62,6 +63,10 @@ nav a {
 #s1 {
     display: flex;
     background-color: rgb(100, 100, 100);
+    min-height: 20vh;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
 h1 {
     text-align: center;
@@ -69,4 +74,16 @@ h1 {
     font-family: 'Arial', sans-serif;
     padding: 10px;
     font-size: 100px;
+}
+h2{
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    padding-top: 50px;
+    text-align: center;
+}
+h2 a {
+    color: rgb(7, 7, 7);
+    font-weight: 500;
+    text-decoration: none;
 }

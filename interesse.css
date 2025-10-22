@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+/*css minimal reset*/
+
+/* Inherit box-sizing to enable easier component styling */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin */
+* {
+    margin: 0;
+}
+
+/* Allow percentage-based heights in the application */
+html,
+body {
+    height: 100%;
+}
+
+/* Improve media defaults */
+img,
+picture,
+svg,
+video,
+canvas {
+    max-width: 100%;
+    height: auto;
+    /* Ensure aspect ratio is maintained */
+    display: block;
+    /* Remove extra space below images */
+}
+
+/* Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/*END css minimal reset*/
+#s1 {
+    font-family: Arial, sans-serif;
+    background-image: url(bilder/f1b.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.header {
+    background: linear-gradient(to right, #e10600, #ff1e00);
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(225, 6, 0, 0.4);
+}
+
+.logo {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.basicinfo {
+    display: flex;
+    justify-content: center;
+    /* Horisontalt */
+    align-items: center;
+    /* Vertikalt */
+    height: 100vh;
+    /* Full høyde */
+}
+
+.introduction {
+    color: white;
+    padding: 20px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-shadow: 2px 2px 4px black;
+    font-size: 23px;
+    background: rgba(255, 255, 255, 0.1);
+    /* Veldig gjennomsiktig hvit */
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 50px;
+    width: 1000px;
+}
