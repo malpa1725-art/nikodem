@@ -63,19 +63,17 @@ h6 {
         url(bilder/f1tracks.jpg);
     background-position: center;
     background-size: cover;
-    background-attachment: fixed; /* Parallax effekt */
+    background-attachment: fixed;
 }
 
-/* De 3 underseksjonene */
 #main-content section {
-    min-height: 100vh; /* Hver underseksjon er full skjermhøyde */
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 40px 20px;
 }
 
-/* Styling for innholdet */
 .races,
 .drivers-section,
 .teams-section,
