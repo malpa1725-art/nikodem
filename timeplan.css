@@ -1,0 +1,81 @@
+/*css minimal reset*/
+
+/* Inherit box-sizing to enable easier component styling */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin */
+* {
+    margin: 0;
+}
+
+/* Allow percentage-based heights in the application */
+html,
+body {
+    height: 100%;
+}
+
+/* Improve media defaults */
+img,
+picture,
+svg,
+video,
+canvas {
+    max-width: 100%;
+    height: auto;
+    /* Ensure aspect ratio is maintained */
+    display: block;
+    /* Remove extra space below images */
+}
+
+/* Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/*END css minimal reset*/
+table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            margin-top: 20px;
+        }
+        
+        
+        td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        .IT1 {
+            width: 100%;
+            height: 100%;
+            border-left: solid greenyellow 5px;
+            border-radius: 100px;
+            background-color: gray;
+            gap: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .timen {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-auto-rows: auto;
+            gap: 5px;
+            border-radius: 40%;
+        }
+        .norsk {
+
+        }
+        .timeplan {
+            background-color: rgb(159, 159, 159);
+
+        }

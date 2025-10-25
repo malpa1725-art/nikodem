@@ -86,11 +86,8 @@ h6 {
 .basicinfo {
     display: flex;
     justify-content: center;
-    /* Horisontalt */
     align-items: center;
-    /* Vertikalt */
     height: 100vh;
-    /* Full høyde */
 }
 
 .introduction {
@@ -103,9 +100,9 @@ h6 {
     text-shadow: 2px 2px 4px black;
     font-size: 23px;
     background: rgba(255, 255, 255, 0.1);
-    /* Veldig gjennomsiktig hvit */
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
     padding: 20px;
     border-radius: 50px;
     width: 1000px;
+    margin-top: -200px;
 }
